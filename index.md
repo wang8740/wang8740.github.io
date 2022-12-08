@@ -1,5 +1,5 @@
 
-## Header 2
+## About
 
 Hi there, I am Xinran!
 
