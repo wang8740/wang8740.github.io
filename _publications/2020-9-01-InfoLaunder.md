@@ -1,5 +1,5 @@
 ---
-title: "International Conference on Learning Representations"
+title: "Information Laundering for Model Privacy"
 collection: publications
 permalink: /publication/2020-9-01-InfoLaunder
 excerpt: 'In this work, we propose information laundering, a novel framework for enhancing model privacy. Unlike data privacy that concerns the protection of raw data
@@ -11,5 +11,5 @@ derive the optimal design.'
 date: 2020-9-01
 paperurl: '/files/pdf/InfoLaunder.pdf'
 link: 'https://openreview.net/pdf?id=dyaIRud1zXg'
-citation: 'Wang, Xinran, Yu Xiang, Jun Gao, and Jie Ding. "Information Laundering for Model Privacy." In International Conference on Learning Representations. 2020.'
+citation: 'Wang, Xinran, Yu Xiang, Jun Gao, and Jie Ding. "Information Laundering for Model Privacy." In International Conference on Learning Representations (Spotlight Presentation). 2020.'
 ---
