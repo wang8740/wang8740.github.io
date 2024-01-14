@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Xinran Wang"
-  avatar           : "profile.png"
+  avatar           : "/images/profile.png"
   bio              : "PhD Student Researcher at the University of Minnesota Twin Cities \n Ambitious, Creative, Curious, Honest, Passionate"
-  location         : "Location"
+  location         : # "Location"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=u8gID6EAAAAJ"
-  email            :
+  email            : "wang8740@umn.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
