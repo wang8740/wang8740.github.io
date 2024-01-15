@@ -14,3 +14,9 @@ author_profile: true
 {% for post in site.publications %}
   {% include archive-single.html %}
 {% endfor %}
+
+{% for post in site.publications %}
+  {% if post.title != "The Impact of the Change of Trade Patterns on China’s Energy Industry" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
