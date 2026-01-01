@@ -55,7 +55,12 @@ export default function PublicationsSection({ publications }) {
                                         <span className="text-amber-600 font-medium">
                                             {pub.year}
                                         </span>
-                                        {pub.link && (
+                                        {pub.note && (
+                                            <span className="text-green-600 text-xs font-medium bg-green-50 px-2 py-1 rounded">
+                                                {pub.note}
+                                            </span>
+                                        )}
+                                        {pub.link && pub.link !== '#' && (
                                             <a 
                                                 href={pub.link}
                                                 target="_blank"
