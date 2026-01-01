@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
-export default function HeroSection({ name, title, institution, tagline }) {
+export default function HeroSection({ name, title, institution, tagline, imageUrl }) {
     const scrollToAbout = () => {
         const element = document.getElementById('about');
         if (element) {
@@ -27,45 +27,68 @@ export default function HeroSection({ name, title, institution, tagline }) {
             </div>
 
             {/* Content */}
-            <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                >
-                    <p className="text-amber-400/80 text-sm font-medium tracking-[0.3em] uppercase mb-6">
-                        {title}
-                    </p>
-                </motion.div>
+            <div className="relative z-10 max-w-5xl mx-auto px-6">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+                    {/* Profile Image */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.8, delay: 0.2 }}
+                        className="flex-shrink-0"
+                    >
+                        <div className="relative">
+                            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-amber-400/30 shadow-2xl">
+                                <img
+                                    src={imageUrl || "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"}
+                                    alt={name}
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </div>
+                    </motion.div>
 
-                <motion.h1
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.4 }}
-                    className="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-light tracking-tight mb-6"
-                >
-                    {name}
-                </motion.h1>
+                    {/* Text Content */}
+                    <div className="flex-1 text-center md:text-left">
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.3 }}
+                        >
+                            <p className="text-amber-400/80 text-sm font-medium tracking-[0.3em] uppercase mb-4">
+                                {title}
+                            </p>
+                        </motion.div>
 
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.6 }}
-                    className="space-y-4"
-                >
-                    <p className="text-slate-400 text-lg md:text-xl font-light tracking-wide">
-                        {institution}
-                    </p>
-                    <p className="text-slate-500 text-base md:text-lg font-light max-w-2xl mx-auto leading-relaxed">
-                        {tagline}
-                    </p>
-                </motion.div>
+                        <motion.h1
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.4 }}
+                            className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-light tracking-tight mb-4"
+                        >
+                            {name}
+                        </motion.h1>
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.5 }}
+                            className="space-y-3"
+                        >
+                            <p className="text-slate-400 text-lg md:text-xl font-light tracking-wide">
+                                {institution}
+                            </p>
+                            <p className="text-slate-500 text-base md:text-lg font-light leading-relaxed max-w-2xl md:max-w-none">
+                                {tagline}
+                            </p>
+                        </motion.div>
+                    </div>
+                </div>
 
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 0.8, delay: 1 }}
-                    className="mt-16"
+                    transition={{ duration: 0.8, delay: 0.8 }}
+                    className="mt-12 text-center w-full"
                 >
                     <button
                         onClick={scrollToAbout}

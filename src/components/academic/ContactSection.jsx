@@ -55,8 +55,8 @@ export default function ContactSection({ email, location, office, twitter, linke
                                     <MapPin size={20} className="text-slate-400" />
                                 </div>
                                 <div>
-                                    <p className="text-xs text-slate-400 uppercase tracking-wide mb-1">Location</p>
-                                    <p className="text-slate-700">{location}</p>
+                                    <p className="text-xs text-slate-400 uppercase tracking-wide mb-1">Office</p>
+                                    <p className="text-slate-700 text-sm leading-relaxed">{location}</p>
                                     {office && <p className="text-slate-500 text-sm">{office}</p>}
                                 </div>
                             </div>

@@ -12,7 +12,7 @@ export default function Navigation() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const navItems = ['About', 'Research', 'Publications', 'Industry', 'Teaching', 'Talks', 'CV', 'Contact'];
+    const navItems = ['About', 'Publications', 'Industry', 'Teaching', 'Talks', 'CV', 'Contact'];
 
     const scrollToSection = (id) => {
         const element = document.getElementById(id.toLowerCase());

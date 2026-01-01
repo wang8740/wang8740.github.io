@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { FileText, ExternalLink, ChevronDown } from 'lucide-react';
+import { FileText, ExternalLink, ChevronDown, FileDown } from 'lucide-react';
 
 export default function PublicationsSection({ publications }) {
     const ref = useRef(null);
@@ -60,14 +60,14 @@ export default function PublicationsSection({ publications }) {
                                                 {pub.note}
                                             </span>
                                         )}
-                                        {pub.link && pub.link !== '#' && (
+                                        {pub.link && (
                                             <a 
                                                 href={pub.link}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="inline-flex items-center gap-1 text-slate-400 hover:text-amber-600 transition-colors duration-300"
+                                                className="inline-flex items-center gap-1 text-amber-600 hover:text-amber-700 transition-colors duration-300 font-medium"
                                             >
-                                                <ExternalLink size={14} />
+                                                <FileDown size={16} />
                                                 <span>PDF</span>
                                             </a>
                                         )}

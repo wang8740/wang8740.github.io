@@ -16,33 +16,18 @@ export default function AboutSection({ bio, education, researchInterests, imageU
                     transition={{ duration: 0.8 }}
                     className="grid lg:grid-cols-5 gap-16 items-start"
                 >
-                    {/* Image Column */}
-                    <div className="lg:col-span-2">
-                        <div className="relative">
-                            <div className="aspect-[4/5] bg-slate-100 rounded-sm overflow-hidden">
-                                <img
-                                    src={imageUrl || "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=750&fit=crop&crop=face"}
-                                    alt="Profile"
-                                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                                />
-                            </div>
-                            <div className="absolute -bottom-4 -right-4 w-full h-full border border-amber-400/30 rounded-sm -z-10" />
-                        </div>
-                    </div>
-
-                    {/* Content Column */}
-                    <div className="lg:col-span-3 space-y-10">
+                    {/* Content Column - Full Width */}
+                    <div className="lg:col-span-5 space-y-10">
                         <div>
                             <p className="text-amber-600 text-sm font-medium tracking-[0.2em] uppercase mb-4">
-                                About
+                                About Me
                             </p>
-                            <h2 className="font-serif text-4xl md:text-5xl text-slate-800 font-light mb-8">
-                                Background & Vision
-                            </h2>
                             <div className="prose prose-lg prose-slate max-w-none">
-                                <p className="text-slate-600 leading-relaxed font-light">
-                                    {bio}
-                                </p>
+                                <div className="text-slate-600 leading-relaxed font-light space-y-4">
+                                    {bio.split('\n\n').map((paragraph, idx) => (
+                                        <p key={idx}>{paragraph}</p>
+                                    ))}
+                                </div>
                             </div>
                         </div>
 
