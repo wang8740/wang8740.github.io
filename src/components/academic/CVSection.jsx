@@ -59,7 +59,7 @@ export default function CVSection({ cvUrl, awards, experience, service }) {
                         </div>
                     </motion.div>
 
-                    {/* Experience */}
+                    {/* Industry Experience */}
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -68,7 +68,7 @@ export default function CVSection({ cvUrl, awards, experience, service }) {
                         <div className="flex items-center gap-3 mb-6">
                             <Briefcase size={20} className="text-amber-600" />
                             <h3 className="text-lg font-medium text-slate-800 tracking-wide">
-                                Experience
+                                Industry Experience
                             </h3>
                         </div>
                         <div className="space-y-4">

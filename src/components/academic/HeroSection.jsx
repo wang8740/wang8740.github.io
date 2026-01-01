@@ -74,9 +74,6 @@ export default function HeroSection({ name, title, institution, tagline, imageUr
                             transition={{ duration: 0.8, delay: 0.5 }}
                             className="space-y-3"
                         >
-                            <p className="text-slate-400 text-lg md:text-xl font-light tracking-wide">
-                                {institution}
-                            </p>
                             <p className="text-slate-500 text-base md:text-lg font-light leading-relaxed max-w-2xl md:max-w-none">
                                 {tagline}
                             </p>
