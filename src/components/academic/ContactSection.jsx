@@ -22,7 +22,7 @@ export default function ContactSection({ email, location, office, twitter, linke
                         Let's Connect
                     </h2>
                     <p className="text-slate-500 font-light mb-12 max-w-xl mx-auto">
-                        I'm actively seeking tenure-track faculty positions. I'd love to discuss potential opportunities and collaborations.
+                        I'm actively seeking full-time positions. I'd love to discuss potential opportunities and collaborations.
                     </p>
                 </motion.div>
 
