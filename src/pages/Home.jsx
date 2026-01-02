@@ -5,7 +5,6 @@ import AboutSection from '@/components/academic/AboutSection';
 import ResearchSection from '@/components/academic/ResearchSection';
 import PublicationsSection from '@/components/academic/PublicationsSection';
 
-import TeachingSection from '@/components/academic/TeachingSection';
 import TalksSection from '@/components/academic/TalksSection';
 import LeadershipSection from '@/components/academic/LeadershipSection';
 import CVSection from '@/components/academic/CVSection';
@@ -173,54 +172,6 @@ const profileData = {
         }
     ],
 
-    // Teaching Section
-    teachingPhilosophy: "I am dedicated to fostering engaging and inclusive learning environments that promote student success. As a Teaching Assistant at the University of Minnesota from 2018 to 2021, I served five core undergraduate and graduate courses with consistently high student ratings. My approach emphasizes clear explanations, hands-on practice, and creating supportive spaces where students feel comfortable asking questions and developing their skills.",
-    
-    courses: [
-        { 
-            code: "STAT 3021", 
-            name: "Introduction to Probability and Statistics", 
-            level: "undergraduate",
-            semester: "Fall 2020",
-            description: "This is an introductory course in statistics whose primary objectives are to teach students the theory of elementary probability theory and an introduction to the elements of statistical inference, including testing, estimation, and confidence statements.",
-            catalogLink: "https://onestop2.umn.edu/pcas/viewCatalogCourse.do?courseId=003021"
-        },
-        { 
-            code: "STAT 5302", 
-            name: "Applied Regression Analysis", 
-            level: "graduate",
-            semester: "Spring 2020",
-            description: "This course covers 1) simple, multiple, and polynomial regression, 2) estimation, testing, prediction, 3) use of graphics in regression, 4) nonlinear models, response surfaces, and 5) experimental research/applications.",
-            catalogLink: "https://onestop2.umn.edu/pcas/viewCatalogCourse.do?courseId=005302"
-        },
-        { 
-            code: "STAT 4051", 
-            name: "Applied Statistics I", 
-            level: "undergraduate",
-            semester: "Fall 2019",
-            description: "The course introduces a wide variety of applied statistical methods for identifying types of problems and selecting appropriate methods for data analysis. It covers basic concepts of single factor analysis of variance (ANOVA) with fixed and random effects, factorial designs, multidimensional scaling, robust estimation, and regression methods.",
-            catalogLink: "https://onestop2.umn.edu/pcas/viewCatalogCourse.do?courseId=004051"
-        },
-        { 
-            code: "STAT 3032", 
-            name: "Regression and Correlated Data", 
-            level: "undergraduate",
-            semester: "Spring 2019",
-            description: "This course is to prepare statistics, economics and actuarial science students for statistical modeling needed in their discipline. The course covers the basic concepts of multiple linear regression, statistical inference, model diagnostics, transformations, model selection, model validation, and basics of time series and mixed models.",
-            catalogLink: "https://onestop2.umn.edu/pcas/viewCatalogCourse.do?courseId=003032"
-        },
-        { 
-            code: "STAT 3022", 
-            name: "Data Analysis", 
-            level: "undergraduate",
-            semester: "Fall 2018",
-            description: "This course covers practical survey of applied statistical inference/computing, including those relate to multiple regression, variance analysis, experiment design, nonparametric methods, model checking/selection, variable transformation, categorical data analysis, and generalized linear regression.",
-            catalogLink: "https://onestop2.umn.edu/pcas/viewCatalogCourse.do?courseId=003022"
-        }
-    ],
-    
-    mentoring: "I am actively involved in the Women in Machine Learning & Data Science Twin Cities community since February 2020. I am committed to supporting diversity and inclusion in computer science and data science, and believe in creating opportunities for students from all backgrounds to thrive in technical fields.",
-
     // CV Section
     cvUrl: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6956f4434c20bda51db596f7/6e0a9d58c_Xinran_CV1.pdf",
     
@@ -339,13 +290,7 @@ export default function Home() {
                 experience={profileData.experience}
                 service={profileData.service}
             />
-            
-            <TeachingSection
-                philosophy={profileData.teachingPhilosophy}
-                courses={profileData.courses}
-                mentoring={profileData.mentoring}
-            />
-            
+
             <TalksSection talks={profileData.talks} />
             
             <LeadershipSection leadership={profileData.leadership} service={profileData.service} />
