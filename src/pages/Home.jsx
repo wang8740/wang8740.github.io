@@ -26,7 +26,7 @@ const profileData = {
     // About Section
     bio: "Welcome! I am a Ph.D. student in Computer Science at the University of Minnesota under the supervision of Professor Ali Anwar, supported by the 3M Science and Technology Graduate Fellowship. My academic background includes a Master's degree in Statistics from the University of Minnesota Twin Cities, as well as a Master's and a Bachelor's degree in Economics from Tsinghua University.\n\nMy approach to research is uniquely shaped by rich industry experiences across finance, consumer goods, and IT. This multidisciplinary view, forged at the confluence of my educational backgrounds in economics, statistics, and computer science, drives me to formulate and address novel research problems. As generative AI transitions from research labs into a broad array of disciplines and industries, my focus is on AI trustworthiness, encompassing safety moderation, incentive designs, and aligning AI with human values.\n\nMy career goal is committed to enhancing human-centric and trustworthy AI-driven decisions to create positive societal impacts. In my leisure time, I enjoy playing table tennis and participating in community activities.",
     
-    imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
+    imageUrl: "/profile-photo.jpg",
     
     education: [
         { degree: "Ph.D. in Computer Science", institution: "University of Minnesota", year: "Expected May 2026" },

@@ -43,7 +43,7 @@ export default function Navigation() {
                             }`}
                             whileHover={{ scale: 1.02 }}
                         >
-                            Academic Portfolio
+                            Xinran's Homepage
                         </motion.button>
 
                         {/* Desktop Navigation */}

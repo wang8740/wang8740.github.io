@@ -1,0 +1,16 @@
+{
+  "name": "Xinran Wang Portfolio",
+  "short_name": "Portfolio",
+  "description": "Academic Portfolio - Xinran Wang",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
