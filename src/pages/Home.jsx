@@ -19,9 +19,9 @@ import Footer from '@/components/academic/Footer';
 const profileData = {
     // Hero Section
     name: "Xinran Wang",
-    title: "PhD Candidate in Computer Science",
+    title: "PhD Candidate in CS | UMN Dissertation Fellow | Specializing in LLM, Agentic AI, Trustworthy AI",
     institution: "University of Minnesota",
-    tagline: "Advancing AI alignment with human values, safety and incentive mechanisms, and the ethical deployment of large language models",
+    tagline: "Passionate researcher advancing AI alignment with human values, safety and incentive mechanisms | Published 15+ papers at top ML/AI conferences (ICLR, NeurIPS, NAACL, EMNLP, IPDPS, BigData)",
 
     // About Section
     bio: "Welcome! I am a Ph.D. student in Computer Science at the University of Minnesota under the supervision of Professor Ali Anwar, supported by the 3M Science and Technology Graduate Fellowship. My academic background includes a Master's degree in Statistics from the University of Minnesota Twin Cities, as well as a Master's and a Bachelor's degree in Economics from Tsinghua University.\n\nMy approach to research is uniquely shaped by rich industry experiences across finance, consumer goods, and IT. This multidisciplinary view, forged at the confluence of my educational backgrounds in economics, statistics, and computer science, drives me to formulate and address novel research problems. As generative AI transitions from research labs into a broad array of disciplines and industries, my focus is on AI trustworthiness, encompassing safety moderation, incentive designs, and aligning AI with human values.\n\nMy career goal is committed to enhancing human-centric and trustworthy AI-driven decisions to create positive societal impacts. In my leisure time, I enjoy playing table tennis and participating in community activities.",
@@ -80,7 +80,7 @@ const profileData = {
             authors: "X. Wang, J. Du, A. Khan, Q. Le, E. Diao, J. Zhou, J. Ding, A. Anwar",
             venue: "Advances in Neural Information Processing Systems (NeurIPS)",
             year: "2025",
-            link: "https://wang8740.github.io/publications/",
+            link: "https://openreview.net/pdf?id=R7HJj1YvJH",
             note: "spotlight presentation (top 3.5%)"
         },
         {
@@ -88,7 +88,7 @@ const profileData = {
             authors: "X. Wang, Q. Le, A. Ahmed, E. Diao, Y. Zhou, N. Baracaldo, J. Ding, A. Anwar",
             venue: "International Conference on Learning Representations (ICLR)",
             year: "2025",
-            link: "https://wang8740.github.io/publications/",
+            link: "https://openreview.net/pdf?id=NN6QHwgRrQ",
             note: "oral presentation (top 1.8%)"
         },
         {
@@ -96,42 +96,42 @@ const profileData = {
             authors: "X. Wang, E. Diao, Q. Le, J. Ding, A. Anwar",
             venue: "Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL)",
             year: "2025",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://aclanthology.org/2025.naacl-long.229.pdf"
         },
         {
             title: "Probe Pruning: Accelerating LLMs through Dynamic Pruning via Model-Probing",
             authors: "Q. Le, E. Diao, Z. Wang, X. Wang, J. Ding, L. Yang, A. Anwar",
             venue: "International Conference on Learning Representations (ICLR)",
             year: "2025",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://openreview.net/pdf?id=WOt1owGfuN"
         },
         {
             title: "Accelerating LLM Reasoning via Early Rejection with Partial Reward Modeling",
             authors: "S. Cheshmi, A. Khan, X. Wang, Z. Liu, A. Anwar",
             venue: "Empirical Methods in Natural Language Processing (EMNLP)",
             year: "2025",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://arxiv.org/pdf/2508.01969"
         },
         {
             title: "PI-FL: Personalized and Incentivized Federated Learning",
             authors: "A. Khan, X. Wang, Q. Le, A. Khan, H. Ali, J. Ding, A. Butt, A. Anwar",
             venue: "IEEE International Parallel & Distributed Processing Symposium (IPDPS)",
             year: "2025",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://arxiv.org/pdf/2304.07514.pdf"
         },
         {
             title: "ICL: An Incentivized Collaborative Learning Framework",
             authors: "X. Wang, Q. Le, A. Khan, J. Ding, A. Anwar",
             venue: "IEEE International Conference on Big Data (BigData)",
             year: "2024",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://arxiv.org/pdf/2305.17052"
         },
         {
             title: "DynamicFL: Dynamic Federated Learning with Communication Resource Allocation",
             authors: "Q. Le, E. Diao, X. Wang, V. Tarokh, J. Ding, A. Anwar",
             venue: "IEEE International Conference on Big Data (BigData)",
             year: "2024",
-            link: "https://wang8740.github.io/publications/",
+            link: "https://arxiv.org/pdf/2409.04986",
             note: "best student paper award"
         },
         {
@@ -139,42 +139,42 @@ const profileData = {
             authors: "A. Merenstein, X. Wang, V. Tarasov, P. Agarwal, S. Guthridge, K. Thakkar, K. Wu, A. Anwar, E. Zadok",
             venue: "International Conference on Massive Storage Systems and Technology (MSST)",
             year: "2024",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://www.msstconference.org/MSST-history/2024/Papers/msst24-5.3.pdf"
         },
         {
             title: "Robust and Efficient Quantum Communication",
             authors: "C. Howe, X. Wang, and A. Anwar",
             venue: "Proceedings of the International Workshop on Quantum Classical Cooperative",
             year: "2023",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://dl.acm.org/doi/pdf/10.1145/3588983.3596687"
         },
         {
             title: "Towards cost-effective and resource-aware aggregation at Edge for Federated Learning",
             authors: "A. Khan, Y. Li, X. Wang, S. Haroon, H. Ali, Y. Cheng, A. Anwar",
             venue: "IEEE International Conference on Big Data (BigData)",
             year: "2023",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://arxiv.org/pdf/2204.07767.pdf"
         },
         {
             title: "Parallel Assisted Learning",
             authors: "X. Wang, J. Zhang, M. Hong, Y. Yang, J. Ding",
             venue: "IEEE Transactions on Signal Processing",
             year: "2022",
-            link: "https://wang8740.github.io/publications/"
+            link: "http://jding.org/jie-uploads/2022/09/PAL.pdf"
         },
         {
             title: "Personalized Federated Recommender Systems with Private and Partially Federated AutoEncoders",
             authors: "Q. Le, E. Diao, X. Wang, A. Anwar, V. Tarokh and J. Ding",
             venue: "Asilomar Conference on Signals, Systems, and Computers",
             year: "2022",
-            link: "https://wang8740.github.io/publications/"
+            link: "https://ieeexplore.ieee.org/abstract/document/10051918"
         },
         {
             title: "Information Laundering for Model Privacy",
             authors: "X. Wang, Y. Xiang, J. Gao, J. Ding",
             venue: "International Conference on Learning Representations (ICLR)",
             year: "2021",
-            link: "https://wang8740.github.io/publications/",
+            link: "https://openreview.net/pdf?id=dyaIRud1zXg",
             note: "spotlight presentation (top 5.6%)"
         },
         {
@@ -182,7 +182,7 @@ const profileData = {
             authors: "X. Xian, X. Wang, J. Ding, R. Ghanadan",
             venue: "Advances in Neural Information Processing Systems (NeurIPS)",
             year: "2020",
-            link: "https://wang8740.github.io/publications/",
+            link: "https://proceedings.neurips.cc/paper/2020/file/a7b23e6eefbe6cf04b8e62a6f0915550-Paper.pdf",
             note: "spotlight presentation (top 4.1%)"
         }
     ],
@@ -267,7 +267,7 @@ const profileData = {
     office: "",
     twitter: "",
     linkedin: "https://www.linkedin.com/in/wang-xinran/",
-    github: "https://wang8740.github.io",
+    github: "https://github.com/wang8740",
     googleScholar: "",
     
     // Additional sections
