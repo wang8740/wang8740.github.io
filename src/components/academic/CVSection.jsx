@@ -7,6 +7,19 @@ export default function CVSection({ cvUrl, awards, experience, service }) {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
 
+    const handleDownloadCV = () => {
+        if (!cvUrl) return;
+
+        // Create a temporary anchor element to trigger download with custom filename
+        const link = document.createElement('a');
+        link.href = cvUrl;
+        link.download = 'XinranWang_CV.pdf';
+        link.target = '_blank';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <section id="cv" className="py-32 bg-slate-50" ref={ref}>
             <div className="max-w-6xl mx-auto px-6 lg:px-8">
@@ -26,7 +39,7 @@ export default function CVSection({ cvUrl, awards, experience, service }) {
                     <Button
                         variant="outline"
                         className="group border-slate-300 hover:border-amber-500 hover:bg-amber-50 transition-all duration-300"
-                        onClick={() => window.open(cvUrl || '#', '_blank')}
+                        onClick={handleDownloadCV}
                     >
                         <Download size={18} className="mr-2 group-hover:text-amber-600" />
                         <span className="group-hover:text-amber-600">Download Full CV</span>
