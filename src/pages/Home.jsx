@@ -110,7 +110,7 @@ const profileData = {
             authors: "S. Cheshmi, A. Khan, X. Wang, Z. Liu, A. Anwar",
             venue: "Empirical Methods in Natural Language Processing (EMNLP)",
             year: "2025",
-            link: "https://arxiv.org/pdf/2508.01969"
+            link: "https://arxiv.org/pdf/2508.01969.pdf"
         },
         {
             title: "PI-FL: Personalized and Incentivized Federated Learning",
@@ -124,14 +124,14 @@ const profileData = {
             authors: "X. Wang, Q. Le, A. Khan, J. Ding, A. Anwar",
             venue: "IEEE International Conference on Big Data (BigData)",
             year: "2024",
-            link: "https://arxiv.org/pdf/2305.17052"
+            link: "https://arxiv.org/pdf/2305.17052.pdf"
         },
         {
             title: "DynamicFL: Dynamic Federated Learning with Communication Resource Allocation",
             authors: "Q. Le, E. Diao, X. Wang, V. Tarokh, J. Ding, A. Anwar",
             venue: "IEEE International Conference on Big Data (BigData)",
             year: "2024",
-            link: "https://arxiv.org/pdf/2409.04986",
+            link: "https://arxiv.org/pdf/2409.04986.pdf",
             note: "best student paper award"
         },
         {
@@ -146,7 +146,7 @@ const profileData = {
             authors: "C. Howe, X. Wang, and A. Anwar",
             venue: "Proceedings of the International Workshop on Quantum Classical Cooperative",
             year: "2023",
-            link: "https://dl.acm.org/doi/pdf/10.1145/3588983.3596687"
+            link: "https://dl.acm.org/doi/10.1145/3588983.3596687"
         },
         {
             title: "Towards cost-effective and resource-aware aggregation at Edge for Federated Learning",
