@@ -21,7 +21,7 @@ const profileData = {
     name: "Xinran Wang",
     title: "PhD Candidate in CS | UMN Dissertation Fellow | Specializing in LLM, Agentic AI, Trustworthy AI",
     institution: "University of Minnesota",
-    tagline: "Passionate researcher advancing AI alignment with human values, safety and incentive mechanisms | Published 15+ papers at top ML/AI conferences (ICLR, NeurIPS, NAACL, EMNLP, IPDPS, BigData)",
+    tagline: "Passionate researcher advancing AI alignment with human values, safety and incentive mechanisms | Published 13+ papers at top ML/AI conferences (ICLR, NeurIPS, NAACL, EMNLP, BigData)",
 
     // About Section
     bio: "Welcome! I am a Ph.D. student in Computer Science at the University of Minnesota under the supervision of Professor Ali Anwar, supported by the 3M Science and Technology Graduate Fellowship. My academic background includes a Master's degree in Statistics from the University of Minnesota Twin Cities, as well as a Master's and a Bachelor's degree in Economics from Tsinghua University.\n\nMy approach to research is uniquely shaped by rich industry experiences across finance, consumer goods, and IT. This multidisciplinary view, forged at the confluence of my educational backgrounds in economics, statistics, and computer science, drives me to formulate and address novel research problems. As generative AI transitions from research labs into a broad array of disciplines and industries, my focus is on AI trustworthiness, encompassing safety moderation, incentive designs, and aligning AI with human values.\n\nMy career goal is committed to enhancing human-centric and trustworthy AI-driven decisions to create positive societal impacts. In my leisure time, I enjoy playing table tennis and participating in community activities.",
@@ -113,13 +113,6 @@ const profileData = {
             link: "https://arxiv.org/pdf/2508.01969.pdf"
         },
         {
-            title: "PI-FL: Personalized and Incentivized Federated Learning",
-            authors: "A. Khan, X. Wang, Q. Le, A. Khan, H. Ali, J. Ding, A. Butt, A. Anwar",
-            venue: "IEEE International Parallel & Distributed Processing Symposium (IPDPS)",
-            year: "2025",
-            link: "https://arxiv.org/pdf/2304.07514.pdf"
-        },
-        {
             title: "ICL: An Incentivized Collaborative Learning Framework",
             authors: "X. Wang, Q. Le, A. Khan, J. Ding, A. Anwar",
             venue: "IEEE International Conference on Big Data (BigData)",
@@ -142,13 +135,6 @@ const profileData = {
             link: "https://www.msstconference.org/MSST-history/2024/Papers/msst24-5.3.pdf"
         },
         {
-            title: "Robust and Efficient Quantum Communication",
-            authors: "C. Howe, X. Wang, and A. Anwar",
-            venue: "Proceedings of the International Workshop on Quantum Classical Cooperative",
-            year: "2023",
-            link: "https://dl.acm.org/doi/10.1145/3588983.3596687"
-        },
-        {
             title: "Towards cost-effective and resource-aware aggregation at Edge for Federated Learning",
             authors: "A. Khan, Y. Li, X. Wang, S. Haroon, H. Ali, Y. Cheng, A. Anwar",
             venue: "IEEE International Conference on Big Data (BigData)",
@@ -160,7 +146,7 @@ const profileData = {
             authors: "X. Wang, J. Zhang, M. Hong, Y. Yang, J. Ding",
             venue: "IEEE Transactions on Signal Processing",
             year: "2022",
-            link: "http://jding.org/jie-uploads/2022/09/PAL.pdf"
+            link: "https://ieeexplore.ieee.org/document/9987700"
         },
         {
             title: "Personalized Federated Recommender Systems with Private and Partially Federated AutoEncoders",
