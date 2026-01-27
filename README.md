@@ -1,39 +1,38 @@
-**Welcome to your Base44 project** 
+# 👋 Xinran Wang — Personal Homepage
 
-**About**
+This repository contains the source code for my personal website.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+🔗 Live site: https://wang8740.github.io
 
-This project contains everything you need to run your app locally.
+---
 
-**Edit the code in your local development environment**
+## 🌟 About Me
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+I am a researcher working in machine learning and AI, with interests in:
+- Trustworthy and Responsible AI
+- Large Language Models and Alignment
 
-**Prerequisites:** 
+This site serves as a place to share my background, experience, projects, and contact information.
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+---
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+## 📌 What You'll Find on the Website
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+- Professional background and CV
+- Research interests and publications
+- Selected projects and technical work
+- Talks, presentations
+- Ways to get in touch
 
-Run the app: `npm run dev`
+---
 
-**Publish your changes**
+## Corrections and Feedback
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+If you notice any typos, errors, or outdated information on the website, I would greatly appreciate your feedback.  
+Please feel free to contact me at **wang8740@umn.edu**.
 
-**Docs & Support**
+---
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+## License
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+© Xinran Wang. All rights reserved. Content may not be reproduced without permission.
